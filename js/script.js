@@ -19,4 +19,4 @@ var emoji = String.fromCodePoint(0x1F60E);
 var password = password.toLowerCase()
 // console.log(password);
 
-document.getElementById("password").innerHTML = "La tua Password è:" + password + emoji;
+document.getElementById("password").innerHTML = "La tua Password è: " + password + emoji;
